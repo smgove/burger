@@ -8,7 +8,7 @@ $(function() {
                 devoured: true
             }
         }).then(() => {
-            console.log('NOM NOM NOM');
+            console.log('devoured');
             window.location.reload();
         });
     });
